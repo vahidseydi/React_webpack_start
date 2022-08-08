@@ -53,6 +53,6 @@ the structure is like this:
 
 #### other adjusments:
 
-- some fonts are brought from google fonts(inter)
+- some fonts are brought from google fonts(inter 400,500,700)
 
 - we added App.css to define some styles
