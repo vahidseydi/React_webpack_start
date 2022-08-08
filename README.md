@@ -35,7 +35,7 @@ the structure is like this:
 
 #### we need to config webpack and for this reaaon webpack.config.js is created:
 
-- **context**: where are we? $\_\_dirname$ (points to project folder)
+- **context**: where are we? \_\_dirname (points to project folder)
 
 - **entry**: which file is the main one? src/index.js
 
