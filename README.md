@@ -22,7 +22,7 @@ the structure is like this:
 
 ## to create it from scratch:
 
-- to use yann we install it by npm install --global yarn
+- to use **yarn** we install it by npm _install --global yarn_
 
 - update dependencies in the package.json
   then using 'npm install OR yarn', all listed packages will be installed
@@ -31,11 +31,11 @@ the structure is like this:
 
 ### A brief reference to the dependencies we have written
 
-    - *webpack*: lets us bundle the JavaScript applications and other images, fonts and ...
+- **webpack**: lets us bundle the JavaScript applications and other images, fonts and ...
 
 #### we need to config webpack and for this reaaon webpack.config.js is created:
 
-- **context**: where are we? \_\_dirname (points to project folder)
+- **context**: where are we? \_dirname (points to project folder)
 
 - **entry**: which file is the main one? src/index.js
 
