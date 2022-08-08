@@ -10,6 +10,12 @@ module.exports = {
     filename: "bundle.js",
     publicPath: "/",
   },
+  resolve: {
+    alias: {
+      components: path.resolve(__dirname, "src/components"),
+    },
+    extensions: [".js", ".jsx"],
+  },
   devServer: {
     static: {
       directory: path.join(__dirname, "public"),
@@ -22,7 +28,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js?$/,
+        test: /\.(js|jsx)$/,
         exclude: /(node_modules|bower_components)/,
         use: {
           loader: "babel-loader",
