@@ -39,6 +39,8 @@ the structure is like this:
 
 - **entry**: which file is the main one? src/index.js
 
+- **resolve**: once you have another folders in the src you have to use this property 
+
 - **output**: where are we goinf to bundle? the folder 'build' in the file bundle.js
 
 - **devServer**: development environment with Webpack and should ONLY be used for development.
@@ -56,3 +58,9 @@ the structure is like this:
 - some fonts are brought from google fonts(inter 400,500,700)
 
 - we added App.css to define some styles
+# Some Tips
+### install ES7+ React/Redux/React-Native snippets 
+- **rafce**: React arrow function extension to generate an arrow function
+### some tips ctrl+shift+i:
+- **Elements**: see the effects of styles(flex,grid,...)!
+- 
