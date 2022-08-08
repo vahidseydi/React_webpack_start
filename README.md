@@ -22,10 +22,10 @@ the structure is like this:
 
 ## to create it from scratch:
 
-- to use **yarn** we install it by npm _install --global yarn_
+- to use **yarn** we install it by _npm install --global yarn_
 
 - update dependencies in the package.json
-  then using 'npm install OR yarn', all listed packages will be installed
+  then using _npm install_ OR _yarn_, all listed packages will be installed
 
 - **scripts**: some comments are listed in the scripts property to compile the project in the different modes(dev/ prod/ ...)
 
@@ -33,7 +33,7 @@ the structure is like this:
 
 - **webpack**: lets us bundle the JavaScript applications and other images, fonts and ...
 
-#### we need to config webpack and for this reaaon webpack.config.js is created:
+#### we need to config webpack and for this reason, the webpack.config.js is created:
 
 - **context**: where are we? \_dirname (points to project folder)
 
@@ -47,9 +47,9 @@ the structure is like this:
 
   - to load js family files we use **babel-loader** (it needs configuring the property of preset that we do in the .**babelrc** file)
 
-    - to load css we use css-loader and style-loader
+    - to load css we use **css-loader** and **style-loader**
 
-- **plugins**: HtmlWebpackPlugin is uded to simplifies the creation of HTML files to serve the webpack bundles
+- **plugins**: **HtmlWebpackPlugin** is uded to simplifies the creation of HTML files to serve the webpack bundles
 
 #### other adjusments:
 
