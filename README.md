@@ -48,7 +48,7 @@ the structure is like this:
 
         - to load css we use css-loader and style-loader
 
-    - **plugins**: HtmlWebpackPlugin is uded to  simplifies the creation of HTML files to serve the webpack bundles
+    - __plugins__: HtmlWebpackPlugin is uded to  simplifies the creation of HTML files to serve the webpack bundles
 
 #### other adjusments:
 
